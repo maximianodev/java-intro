@@ -1,4 +1,4 @@
-package bytebank;
+package bytebankComposto;
 
 public class Conta {
 	double saldo;
