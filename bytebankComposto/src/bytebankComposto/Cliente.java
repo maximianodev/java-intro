@@ -1,7 +1,7 @@
 package bytebankComposto;
 
 public class Cliente {
-	String name;
+	String nome;
 	String cpf;
-
+	String profissao;
 }
