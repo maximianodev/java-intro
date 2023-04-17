@@ -7,12 +7,14 @@ public class TestaBanco {
 		lucas.nome = "Lucas Maximiano";
 		lucas.cpf = "222.222.222-22";
 		lucas.profissao = "Developer";
-		
+
 		Conta contaDoLucas = new Conta();
 		
 		contaDoLucas.deposita(100);
 		contaDoLucas.titular = lucas;
 		
-		System.out.println(contaDoLucas.titular.nome);
+
+		System.out.println("Conta: " + contaDoLucas.titular.nome);
+		System.out.println("Saldo: " + contaDoLucas.getSaldo());
 	}
 }
